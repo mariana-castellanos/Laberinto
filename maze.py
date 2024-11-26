@@ -28,7 +28,7 @@ class StackFrontier:
         if self.empty():
             raise Exception("empty frontier")
         else:
-            node = self.frontier.pop()  # Last in, first out
+            node = self.frontier.pop()  
             return node
 
 
